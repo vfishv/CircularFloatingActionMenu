@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    compileSdkVersion 33
+    //buildToolsVersion "33.0.0"
 
     defaultConfig {
         // applicationId "com.oguzdev.circularfloatingactionmenu.library"
@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 // apply from: '../gradle-mvn-push.gradle'
